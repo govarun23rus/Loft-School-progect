@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: url(../img/background.png) repeat;
+    font-family: 'fira_sansbook';
+    color: #4a545d;
+}
+
+.page {
+    display: table;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.page__region {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page__header {
+    position: relative;
+    min-width: 960px;
+    height: 119px;
+    margin-bottom: 39px;
+    background: #eff3f7 url(../img/line.png) bottom center no-repeat;
+}
+
+.page__header__logo {
+    position: absolute;
+    top: 38px;
+    left: 0;
+}
+.logo {
+    display: block;
+    width: 243px;
+    height: 42px;
+    background: url(../img/logo.png) center no-repeat;
+}
+.logo:hover {
+    background-image: url(../img/logo-active.png);
+}
+.page__header__socials {
+    position: absolute;
+    top: 38px;
+    right: 0;
+}
+
+.page__body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* основной контент */
+.main-content {
+    float: right;
+    width: 650px;
+}
+
+/* левая колонка */
+.sidebar_left {
+    float: left;
+    width: 250px;
+}
+
+.sidebar-block {
+    margin-bottom: 24px;
+    border-radius: 4px;
+    overflow: hidden; /* чтобы работал border-radius с дочерними элементами */
+}

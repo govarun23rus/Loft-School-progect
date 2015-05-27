@@ -1,0 +1,31 @@
+.footer {
+    display: table-row;
+    height: 80px;
+    background: #eff3f7 url(../img/line.png) top center no-repeat;
+}
+.footer__inner {
+    position: relative;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 32px;
+    color: #4a545d;
+}
+.footer__auth {
+    position: absolute;
+    top: 24px;
+    left: 30px;
+}
+.auth-handler {
+    display: block;
+    width: 20px;
+    height: 32px;
+    background: url(../img/auth_lock.png) center no-repeat;
+}
+.auth-handler:hover {
+    background-image: url(../img/auth_unlock.png);
+}
+.footer__copyright {
+    text-align: center;
+    font-size: 13px;
+}

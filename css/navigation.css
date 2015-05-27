@@ -1,0 +1,38 @@
+.navigation {
+    background: #eff3f7;
+}
+.navigation__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation__link {
+    position: relative;
+    display: block;
+    padding: 25px 28px;
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 22px;
+    color: #959aa8;
+}
+.navigation__link:after {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    display: block;
+    width: 230px;
+    height: 2px;
+    background: #3ba8c0;
+}
+.navigation__link:hover {
+    color: #3ba8c0;
+}
+.navigation__link--active {
+    padding: 26px 28px;
+    background: #3ba8c0;
+    font-size: 23px;
+    color: #fff;
+}
+.navigation__link--active:hover {
+    color: #fff;
+}
