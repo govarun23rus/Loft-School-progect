@@ -1,0 +1,22 @@
+doctype html
+html(lang="ru-RU")
+    include ../common/head.jade
+    body
+        .wrapper
+            .container.clearfix
+                main.main-content
+                    //slider
+                    include ../common/slider.jade
+                    //main content
+                    block content
+                aside.left-sidebar
+                    //logo
+                    include ../common/logo.jade
+                    //call form
+                    include ../common/call-form.jade
+                    //little gallery
+                    include ../common/little-gallery.jade
+                    //contact info
+                    include ../common/contact-info.jade
+                
+        include ../common/footer.jade

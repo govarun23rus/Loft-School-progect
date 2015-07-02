@@ -1,0 +1,21 @@
+{
+  "name": "project2",
+  "version": "0.0.0",
+  "authors": [
+    "Vadim D."
+  ],
+  "description": "home task",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "loftschool"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "1.11",
+    "modernizr": "~2.8.3",
+    "normalize.css": "~3.0.3",
+    "jquery-placeholder": "~2.1.2"
+  }
+}
